@@ -1,8 +1,9 @@
 # clase-02-react
 
-## 
-* contruir un proyecto base como el  de la clase.✔
-* crear sus repositorios y subirlo (siguiento los paso que se hicieron en la calse de hoy)✔
-* Crear una pagina que se presente a ustedes . ✔
-* crear una app.js que utilice alert y prompt para que finalmente mediante la aleta salude.✔
+## ejer
+
+* Construir un proyecto base como el de la clase ✔
+* Crear sus repositorios y subirlo (siguiendo los pasos que se hicieron en la   clase de hoy) ✔
+* Crear una página que se presente a ustedes ✔
+* Crear un app.js que utilice alert y prompt para que finalmente mediante la alerta salude ✔
  
