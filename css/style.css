@@ -1,6 +1,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    margin-bottom: 100px;
+
   }
   
   header {
@@ -49,4 +51,56 @@ body {
     width: 200px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  }
+  input[type="button"] {
+    background-color: #4CAF50; 
+    border: none; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 10px; 
+    box-shadow: 0 5px 10px rgba(0,0,0,0.6);
+    animation: move 2s infinite ; 
+  }
+  
+  input[type="button"]:active {
+    transform: translateY(2px); 
+    box-shadow: none; 
+    background-color: #73ff01; 
+    transition: transform 0.2s ease;
+    color: black;
+  }
+  
+  @keyframes move {
+    0% { transform: translateX(0); } 
+    25% { transform: translateX(50px); } 
+    50% { transform: translateX(0); } 
+    75% { transform: translateX(-50px); } 
+    100% { transform: translateX(0); } 
+    
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px; 
+    background-color: #333; 
+    z-index: -1;
+  }
+
+  footer svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+   
   }

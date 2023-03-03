@@ -1,7 +1,12 @@
-var a = 120;
-var b = 250;
+function alerta(){
+   var nombreUsuario = prompt("¿Cómo te llamas?");
 
-console.log(a+b);
-console.log(a+a);
-console.log(b+b);
 
+var mensajeSaludo = `Hola ${nombreUsuario}, ¡bienvenido a mi presentación!`;
+
+
+alert(mensajeSaludo);
+ 
+}
+
+  
