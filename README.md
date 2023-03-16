@@ -7,6 +7,9 @@
 * Crear una página que se presente a ustedes ✔
 * Crear un app.js que utilice alert y prompt para que finalmente mediante la alerta salude ✔
 
+
+
+
 ────────────█───────────────█
 ────────────██─────────────██
 ─────────────███████████████
